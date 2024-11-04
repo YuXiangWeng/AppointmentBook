@@ -15,7 +15,7 @@ public class AppointmentBook {
      * 1 <= duration <= 60
      */
     private void reserveBlock(int period, int startMinute, int duration) {
-        
+       
     }
 
     /**
@@ -27,7 +27,9 @@ public class AppointmentBook {
      * Preconditions: 1 <= period <= 8; 1 <= duration <= 60
      */
     public int findFreeBlock(int period, int duration) {
-
+        if (isMinuteFree(period, duration) = false){
+            return -1;
+        }
     }
 
 /**
